@@ -1,32 +1,20 @@
 export const AUTONITY = {
-  name: "Auton",
-  abbr: "AUT",
-  address: "0x3f0D1FAA13cbE43D662a37690f0e8027f9D89eBF", // Weth address
+  name: "Ethereum",
+  abbr: "ETH",
+  address: "0x6B22Fe540b7Baeb9467259030E838C4192048d71", // Weth address
 };
 
 export const TOKEN_A = {
-  name: "Token A",
-  abbr: "TA",
-  address: "0x1d29BD2ACedBff15A59e946a4DE26d5257447727",
+  name: "LAtoken1",
+  abbr: "LA1",
+  address: "0xA2739c52d8E48ec1FEB8442539fbAacd7Eff388D",
 };
 
 export const TOKEN_B = {
-  name: "Token B",
-  abbr: "TB",
-  address: "0xc108a13D00371520EbBeCc7DF5C8610C71F4FfbA",
+  name: "LAtoken2",
+  abbr: "LA2",
+  address: "0xa979319b504195BaEEEa2174Ec24B0aCCF48a0A8",
 };
 
-export const TOKEN_C = {
-  name: "Token C",
-  abbr: "TC",
-  address: "0xC8E25055A4666F39179abE06d466F5A98423863F",
-};
-
-export const TOKEN_D = {
-  name: "Token D",
-  abbr: "TD",
-  address: "0x23238098F2B4dd9Ba3bb8bc78b639dD113da697e",
-};
-
-export const ALL = [AUTONITY, TOKEN_A, TOKEN_B, TOKEN_C, TOKEN_D];
-export const ALL_WITHOUT_AUTONITY = [TOKEN_A, TOKEN_B, TOKEN_C, TOKEN_D];
+export const ALL = [AUTONITY, TOKEN_A, TOKEN_B];
+export const ALL_WITHOUT_AUTONITY = [TOKEN_A, TOKEN_B];

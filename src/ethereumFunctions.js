@@ -68,7 +68,7 @@ export async function getBalanceAndSymbol(
     } else {
       const token = new Contract(address, ERC20.abi, signer);
       const balanceRaw = await token.balanceOf(accountAddress);
-      const symbol = await token.symbol();
+      const symbol = ethers.utils.parseBytes32String(await token.symbol());
 
       return {
         balance: ethers.utils.formatEther(balanceRaw),
@@ -134,7 +134,8 @@ export async function swapTokens(
       amountOut[1],
       tokens,
       accountAddress,
-      deadline
+      deadline,
+      { gasLimit: 1000000000 }
     );
   }
 }

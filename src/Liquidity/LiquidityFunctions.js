@@ -87,7 +87,8 @@ export async function addLiquidity(
       amount1Min,
       amount2Min,
       account,
-      deadline
+      deadline,
+      { gasLimit: 1000000000 }
     );
   }
 }
@@ -166,7 +167,8 @@ export async function removeLiquidity(
       amount1Min,
       amount2Min,
       account,
-      deadline
+      deadline,
+      { gasLimit: 1000000000 }
     );
   }
 }
