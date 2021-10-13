@@ -117,7 +117,7 @@ export async function swapTokens(
       tokens,
       accountAddress,
       deadline,
-      { value: amountIn }
+      { value: amountIn, gasLimit: 1000000000 }
     );
   } else if (address2 === COINS.AUTONITY.address) {
     // Token -> Eth
@@ -126,7 +126,8 @@ export async function swapTokens(
       amountOut[1],
       tokens,
       accountAddress,
-      deadline
+      deadline,
+      { gasLimit: 1000000000 }
     );
   } else {
     await routerContract.swapExactTokensForTokens(
@@ -204,7 +205,7 @@ export async function getReserves(
   const pair = new Contract(pairAddress, PAIR.abi, signer);
 
   const reservesRaw = await fetchReserves(address1, address2, pair);
-  const liquidityTokens_BN = await pair.balanceOf(accountAddress);
+  const liquidityTokens_BN = 0;//await pair.balanceOf(accountAddress);
   const liquidityTokens = Number(
     ethers.utils.formatEther(liquidityTokens_BN)
   ).toFixed(2);

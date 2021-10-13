@@ -64,7 +64,7 @@ export async function addLiquidity(
       amount1Min,
       account,
       deadline,
-      { value: amountIn1 }
+      { value: amountIn1, gasLimit: 1000000000 }
     );
   } else if (address2 === COINS.AUTONITY.address) {
     // Token + Eth
@@ -75,7 +75,7 @@ export async function addLiquidity(
       amount2Min,
       account,
       deadline,
-      { value: amountIn2 }
+      { value: amountIn2, gasLimit: 1000000000 }
     );
   } else {
     // Token + Token
@@ -146,7 +146,8 @@ export async function removeLiquidity(
       amount2Min,
       amount1Min,
       account,
-      deadline
+      deadline,
+      { gasLimit: 1000000000 }
     );
   } else if (address2 === COINS.AUTONITY.address) {
     // Token + Eth
@@ -156,7 +157,8 @@ export async function removeLiquidity(
       amount1Min,
       amount2Min,
       account,
-      deadline
+      deadline,
+      { gasLimit: 1000000000 }
     );
   } else {
     // Token + Token
