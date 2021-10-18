@@ -205,7 +205,11 @@ export async function getReserves(
   const pair = new Contract(pairAddress, PAIR.abi, signer);
 
   const reservesRaw = await fetchReserves(address1, address2, pair);
-  const liquidityTokens_BN = 0;//await pair.balanceOf(accountAddress);
+  let liquidityTokens_BN = 0;
+  try {
+    liquidityTokens_BN = await pair.balanceOf(accountAddress);
+  } catch {
+  }
   const liquidityTokens = Number(
     ethers.utils.formatEther(liquidityTokens_BN)
   ).toFixed(2);

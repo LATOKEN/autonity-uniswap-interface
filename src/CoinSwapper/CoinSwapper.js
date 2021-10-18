@@ -71,13 +71,13 @@ function CoinSwapper(props) {
   const [signer, setSigner] = React.useState(getSigner(provider));
   const [account, setAccount] = React.useState(undefined); // This is populated in a react hook
   const [router, setRouter] = React.useState(
-    getRouter("0xe2217732eA50EC973b4b99a9e3A928C1174b7cb2", signer)
+    getRouter("0x348d081884d961ff6a9f85E33Ee4A11b85c91F2A", signer)
   );
   const [weth, setWeth] = React.useState(
-    getWeth("0xcBE9Ab18330D409E7430057cDBF5e626347D56bB", signer)
+    getWeth("0x290E934B7CE50A847f2f06e8c86B9803A92Af6B8", signer)
   );
   const [factory, setFactory] = React.useState(
-    getFactory("0x9A6394179F4B6bb991c5690987d13afFf6189fFC", signer)
+    getFactory("0xB022996a9b9e7c5f0bc6fDa2Cf632D5D9C4fd7dC", signer)
   );
 
   // Stores a record of whether their respective dialog window is open
