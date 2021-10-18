@@ -1,7 +1,7 @@
 export const AUTONITY = {
   name: "Ethereum",
   abbr: "ETH",
-  address: "0x290E934B7CE50A847f2f06e8c86B9803A92Af6B8", // Weth address
+  address: "0x8E5cC40f77D3BBB5ef1C1a752dc7E9bf2b6bd4E0", // Weth address
 };
 
 export const TOKEN_A = {
