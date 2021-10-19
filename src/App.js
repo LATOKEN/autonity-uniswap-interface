@@ -12,11 +12,11 @@ import { createTheme, ThemeProvider } from "@material-ui/core";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#ff0000",
+      main: "#5661FF",
       contrastText: "#ffffff",
     },
     secondary: {
-      main: "#9e9e9e",
+      main: "#393A40",
       contrastText: "#ffffff",
     },
   },
@@ -33,12 +33,12 @@ function App() {
             <NarBar />
             <Route
               exact
-              path="/autonity-uniswap-interface/"
+              path="/lachain-uniswap-interface/"
               component={CoinSwapper}
             />
             <Route
               exact
-              path="/autonity-uniswap-interface/liquidity"
+              path="/lachain-uniswap-interface/liquidity"
               component={Liquidity}
             />
           </ThemeProvider>

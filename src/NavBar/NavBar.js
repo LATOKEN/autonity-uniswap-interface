@@ -12,7 +12,7 @@ class NavBar extends Component {
       <nav>
         <div className="Title">
           <h1 className="navbar-logo">
-            <img src={logo} className="logo"></img> Autonity Uniswap
+            <img src={logo} className="logo"></img> LaSwap
           </h1>
         </div>
 

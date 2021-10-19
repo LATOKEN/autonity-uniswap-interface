@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/autonity-uniswap-interface/static/css/main.797d0e06.chunk.css",
-    "main.js": "/autonity-uniswap-interface/static/js/main.b6d08d71.chunk.js",
-    "main.js.map": "/autonity-uniswap-interface/static/js/main.b6d08d71.chunk.js.map",
-    "runtime-main.js": "/autonity-uniswap-interface/static/js/runtime-main.ec89cad2.js",
-    "runtime-main.js.map": "/autonity-uniswap-interface/static/js/runtime-main.ec89cad2.js.map",
-    "static/css/2.3ab4f688.chunk.css": "/autonity-uniswap-interface/static/css/2.3ab4f688.chunk.css",
-    "static/js/2.b16527a3.chunk.js": "/autonity-uniswap-interface/static/js/2.b16527a3.chunk.js",
-    "static/js/2.b16527a3.chunk.js.map": "/autonity-uniswap-interface/static/js/2.b16527a3.chunk.js.map",
-    "static/js/3.c38e175b.chunk.js": "/autonity-uniswap-interface/static/js/3.c38e175b.chunk.js",
-    "static/js/3.c38e175b.chunk.js.map": "/autonity-uniswap-interface/static/js/3.c38e175b.chunk.js.map",
-    "index.html": "/autonity-uniswap-interface/index.html",
-    "static/css/2.3ab4f688.chunk.css.map": "/autonity-uniswap-interface/static/css/2.3ab4f688.chunk.css.map",
-    "static/css/main.797d0e06.chunk.css.map": "/autonity-uniswap-interface/static/css/main.797d0e06.chunk.css.map",
-    "static/js/2.b16527a3.chunk.js.LICENSE.txt": "/autonity-uniswap-interface/static/js/2.b16527a3.chunk.js.LICENSE.txt",
-    "static/media/logo.28418735.svg": "/autonity-uniswap-interface/static/media/logo.28418735.svg"
+    "main.css": "/lachain-uniswap-interface/static/css/main.1c53b519.chunk.css",
+    "main.js": "/lachain-uniswap-interface/static/js/main.1fe42420.chunk.js",
+    "main.js.map": "/lachain-uniswap-interface/static/js/main.1fe42420.chunk.js.map",
+    "runtime-main.js": "/lachain-uniswap-interface/static/js/runtime-main.3533eb12.js",
+    "runtime-main.js.map": "/lachain-uniswap-interface/static/js/runtime-main.3533eb12.js.map",
+    "static/css/2.3ab4f688.chunk.css": "/lachain-uniswap-interface/static/css/2.3ab4f688.chunk.css",
+    "static/js/2.e61a3e85.chunk.js": "/lachain-uniswap-interface/static/js/2.e61a3e85.chunk.js",
+    "static/js/2.e61a3e85.chunk.js.map": "/lachain-uniswap-interface/static/js/2.e61a3e85.chunk.js.map",
+    "static/js/3.c38e175b.chunk.js": "/lachain-uniswap-interface/static/js/3.c38e175b.chunk.js",
+    "static/js/3.c38e175b.chunk.js.map": "/lachain-uniswap-interface/static/js/3.c38e175b.chunk.js.map",
+    "index.html": "/lachain-uniswap-interface/index.html",
+    "static/css/2.3ab4f688.chunk.css.map": "/lachain-uniswap-interface/static/css/2.3ab4f688.chunk.css.map",
+    "static/css/main.1c53b519.chunk.css.map": "/lachain-uniswap-interface/static/css/main.1c53b519.chunk.css.map",
+    "static/js/2.e61a3e85.chunk.js.LICENSE.txt": "/lachain-uniswap-interface/static/js/2.e61a3e85.chunk.js.LICENSE.txt",
+    "static/media/logo.f03d753e.svg": "/lachain-uniswap-interface/static/media/logo.f03d753e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec89cad2.js",
+    "static/js/runtime-main.3533eb12.js",
     "static/css/2.3ab4f688.chunk.css",
-    "static/js/2.b16527a3.chunk.js",
-    "static/css/main.797d0e06.chunk.css",
-    "static/js/main.b6d08d71.chunk.js"
+    "static/js/2.e61a3e85.chunk.js",
+    "static/css/main.1c53b519.chunk.css",
+    "static/js/main.1fe42420.chunk.js"
   ]
 }
